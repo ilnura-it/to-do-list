@@ -38,7 +38,7 @@ function Header() {
   useEffect(() => {
     const fetchWeather = async () => {
      const response = await fetch(
-        `${urlWeather}weather?q=Calgary&units=metric&appID=${key}`
+        `${urlWeather}weather?q=Bishkek&units=metric&appID=${key}`
       );
       const weatherResult = await response.json();
       const weatherIconUrl = `https://openweathermap.org/img/wn/${weatherResult.weather[0].icon}@2x.png`;

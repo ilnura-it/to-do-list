@@ -1,6 +1,6 @@
 body {
   background-color: rgb(19, 18, 18);
-  background-image: url('/5579775.jpg');
+  background-image: url('./5579775.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
